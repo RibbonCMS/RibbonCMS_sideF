@@ -36,6 +36,7 @@ const TopBar = (
   <Typography variant="body1" align="center" sx={{mt: '2rem', mb: '2rem'}}>
     <TextLink href='/' alt='top'/> {' '}
     <TextLink href='/articles' alt='articles'/> {' '}
+    <TextLink href='/articles/tags' alt='tags'/>
     <TextLink href='/preview' alt='preview'/>
   </Typography>
 )
